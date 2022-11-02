@@ -1,0 +1,46 @@
+body > div {
+    height: 500px;
+    background-color: lightgrey;
+    position: relative;
+    width: 500px;
+}
+
+.children {
+    height: 100px;
+    width: 100px;
+
+}
+
+#box1 {
+    background-color: rgb(182, 175, 175);
+    position: relative;
+    top: 100px;
+    left: 0px;
+
+    height: 400px;
+}
+
+#box2 {
+    background-color:  rgb(182, 175, 175);
+    top: 100px;
+    position: absolute;
+    height: 400px;
+    right: 0px
+}
+
+#box3 {
+    background-color: gray;
+    position: absolute;
+    top: 0px;
+    width: 500px;
+    z-index: 0;
+}
+#box4 {
+    background-color: gray;
+    position: fixed;
+    top: 450px;
+    z-index: 1;
+    left: 100px;
+    width: 300px;
+    height: 50px;
+}
